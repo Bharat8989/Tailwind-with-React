@@ -177,6 +177,25 @@ const Grid = () => {
           </div>
         </div>
       </section>
+
+      <section className="bg-slate-500 py-10 max-w-[1170px] mx-auto">
+  <h1 className="text-[20px] md:text-[30px] lg:text-[40px] font-bold text-center py-[40px]">
+    Grid-Cols-Subgrid
+  </h1>
+  <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-12 py-5 px-3">
+    <div className="w-[190px] h-[45px] bg-white text-center font-bold flex items-center justify-center">
+      01
+    </div>
+    <div className="w-[190px] h-[45px] bg-white text-center  flex items-center justify-center font-bold">02</div>
+    <div className="w-[190px] h-[45px] bg-white text-center font-bold flex items-center justify-center">03</div>
+    <div className="w-[190px] h-[45px] bg-white text-center font-bold flex items-center justify-center">04</div>
+    <div className="w-[190px] h-[45px] bg-white text-center font-bold flex items-center justify-center">05</div>
+    <div className="grid-cols-subgrid gap-4 col-span-3 ">
+      <div className="w-[190px] h-[45px] bg-white text-center  flex items-center justify-center font-bold col-start-2 ">06</div>
+    </div>
+  </div>
+</section>
+
     </>
   );
 };
