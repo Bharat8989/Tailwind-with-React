@@ -95,8 +95,7 @@ const Grid = () => {
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Blanditiis consequatur corporis neque vero assumenda officiis
-                voluptatem quam cupiditate provident, nostrum harum nesciunt
-                nobis?
+                volupt
               </p>
             </div>
           </div>
