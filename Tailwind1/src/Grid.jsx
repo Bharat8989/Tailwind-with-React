@@ -9,7 +9,7 @@ const Grid = () => {
         </h1>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-[20px]">
-          <div className="shadow-lg pb-[20px]">
+          <div className="shadow-lg pb-[20px] col-start-2 ">
             <img
               className="w-[100%]"
               src="https://wallpapercave.com/wp/wp4088642.jpg"
@@ -181,8 +181,8 @@ const Grid = () => {
   <h1 className="text-[20px] md:text-[30px] lg:text-[40px] font-bold text-center py-[40px]">
     Grid-Cols-Subgrid
   </h1>
-  <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-12 py-5 px-3">
-    <div className="w-[190px] h-[45px] bg-white text-center font-bold flex items-center justify-center">
+  <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-12 py-5 px-3 ">
+    <div className="w-[190px] h-[45px] bg-white text-center font-bold flex items-center justify-center ">
       01
     </div>
     <div className="w-[190px] h-[45px] bg-white text-center  flex items-center justify-center font-bold">02</div>
